@@ -1,0 +1,147 @@
+
+.LoginParent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    background-image:url(../images/darklaptotp.jpg) ;
+  }
+  
+  
+  .child-1 {
+    margin-right: 20px;
+  }
+  
+  .child-1 img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  
+.child-2 {
+    color: white;
+    background: rgba(255, 255, 255, 0.1); 
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2); 
+  }
+  
+  
+  .child-2 h1 {
+    margin-bottom: 20px;
+    color: white;
+    text-align: center;
+  }
+  
+  .child-2 input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  .child-2 button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+
+  .child-2 button:hover {
+    background-color: #218838;
+  }
+  
+  .child-2 button:active {
+    background-color: #1e7e34;
+  }
+
+.RegParent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(../images/darklaptotp.jpg); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+
+.rchild {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px); 
+    border: 1px solid rgba(255, 255, 255, 0.3); 
+  }
+  
+  
+  .rchild h1 {
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+  }
+  
+  
+  .rchild input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  
+  .rchild button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  
+  .rchild button:hover {
+    background-color: #0056b3;
+  }
+  
+  .rchild button:active {
+    background-color: #004085;
+  }
+  
+  /* Styling for the homeContainer */
+.homeContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image:url(../images/darklaptotp.jpg) ; /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  /* White text styling */
+  .homeContainer h1 {
+    color: white;
+    font-size: 48px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Optional: text shadow for better readability */
+  }
+  
