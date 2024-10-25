@@ -28,7 +28,7 @@ const Login=()=>{
           Enter Email : <input type="email" value={email} 
           onChange={(e)=>{setEmail(e.target.value)}} />
           <br/>
-          Enter Password : <input type="password" value={password}
+          Enter Password : <input type="password" value={password}git
           onChange={(e)=>{setPassword(e.target.value)}} />
           <br/>
           <button onClick={handleSubmit}>Login</button>
