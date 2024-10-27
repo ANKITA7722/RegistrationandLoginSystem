@@ -27,7 +27,7 @@ const Registration = () => {
           <label>
             Enter Name:
             <input
-              type="text"
+              type="text" placeholder="Enter Your Name"
               name="name"
               value={input.name || ""}
               onChange={handleInput}
@@ -37,7 +37,7 @@ const Registration = () => {
           <label>
             Enter Email:
             <input
-              type="email"
+              type="email" placeholder="Enter Your Email"
               name="email"
               value={input.email || ""}
               onChange={handleInput}
@@ -47,7 +47,7 @@ const Registration = () => {
           <label>
             Enter Password:
             <input
-              type="password"
+              type="password" placeholder="Enter Your Password"
               name="password"
               value={input.password || ""}
               onChange={handleInput}
