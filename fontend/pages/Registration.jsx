@@ -1,7 +1,7 @@
 import { useState } from "react";
 import axios from "axios";
 import { message } from "antd";
-import "../CSS/Style.css"; // Import the CSS for styling
+ import "../CSS/Style.css"; 
 
 const Registration = () => {
   const [input, setInput] = useState({});
