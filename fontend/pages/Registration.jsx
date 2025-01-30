@@ -1,7 +1,7 @@
 import { useState } from "react";
 import axios from "axios";
 import { message } from "antd";
- import "../CSS/Style.css"; 
+import "../CSS/Style.css"; 
 
 const Registration = () => {
   const [input, setInput] = useState({});
@@ -29,7 +29,7 @@ const Registration = () => {
             <input
               type="text" placeholder="Enter Your Name"
               name="name"
-              value={input.name || ""}
+              value={input.name}
               onChange={handleInput}
             />
           </label>
@@ -39,7 +39,7 @@ const Registration = () => {
             <input
               type="email" placeholder="Enter Your Email"
               name="email"
-              value={input.email || ""}
+              value={input.email}
               onChange={handleInput}
             />
           </label>
@@ -49,7 +49,7 @@ const Registration = () => {
             <input
               type="password" placeholder="Enter Your Password"
               name="password"
-              value={input.password || ""}
+              value={input.password }
               onChange={handleInput}
             />
           </label>
